@@ -70,7 +70,7 @@ function test() {
     var barWidth = (WIDTH / bufferLength);
     var barHeight;
 
-    // x sert a se reperer sur l'axe des abscisses.
+    // x sert a 
     var x = 0;
 
     function renderFrame() {
