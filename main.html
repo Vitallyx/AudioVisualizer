@@ -1,0 +1,19 @@
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <script src="/assets/js/p5.min.js"></script>
+    <script src="main.js" defer></script>
+    <title>Audio Visualizer</title>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+        <audio id="audio"></audio>
+    </div>
+
+    <input id="vol_control" type="range" min="0" max="100" step="1" value="20" oninput="setVolume(this.value)"></input>
+
+</body>
