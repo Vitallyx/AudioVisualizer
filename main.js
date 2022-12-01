@@ -18,6 +18,7 @@ function volume() {
     }
 }
 volume()
+audio.load()
 
 // Gestion de la lecture de l'audio.
 container.onclick = () => {
@@ -70,7 +71,6 @@ function test() {
     var barWidth = (WIDTH / bufferLength);
     var barHeight;
 
-    // x sert a 
     var x = 0;
 
     function renderFrame() {
@@ -101,7 +101,9 @@ function test() {
             // Espacemment entre les barres
             x += barWidth + 5;
 
+
         }
     }
     renderFrame();
 }
+audio.play()
